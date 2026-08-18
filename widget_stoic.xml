@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="18dp"
+    android:background="@drawable/widget_dark">
+
+    <TextView
+        android:id="@+id/widget_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEMENTO  •  HOY"
+        android:textSize="10sp"
+        android:letterSpacing="0.12"
+        android:textColor="#FFB9B9B9" />
+
+    <TextView
+        android:id="@+id/widget_quote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="La frase estoica de hoy"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:maxLines="6"
+        android:ellipsize="end"
+        android:paddingTop="8dp"
+        android:paddingBottom="6dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/widget_source"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="— Reflexión estoica"
+            android:textColor="#FFD8B36A"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/widget_refresh"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:text="↻"
+            android:textColor="#FFE3C078"
+            android:textSize="22sp"
+            android:contentDescription="@string/refresh_quote" />
+    </LinearLayout>
+</LinearLayout>

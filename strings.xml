@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memento</string>
+    <string name="widget_description">Una reflexión estoica distinta cada día.</string>
+    <string name="refresh_quote">Actualizar frase</string>
+</resources>
